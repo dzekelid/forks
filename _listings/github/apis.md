@@ -41,17 +41,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/forks/master/_listings/github/repos-owner-repo-forks-post.md
-- name: Github Add Gists  Forks
-  description: Fork a gist.
+- name: Github Get Repos Owner Repo Forks
+  description: List forks.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/github-logo.png
   humanURL: https://github.com
   baseURL: https://api.github.com//
   tags: Forks
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/forks/master/_listings/github/gists-id-forks-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/forks/master/_listings/github/repos-owner-repo-forks-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/forks/master/_listings/github/gists-id-forks-post-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/forks/master/_listings/github/repos-owner-repo-forks-get-postman.md
 x-common:
 - type: x-net-library
   url: https://github.com/octokit/octokit.net
